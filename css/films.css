@@ -1,0 +1,102 @@
+.films-wrapper {
+    background-color: #E8E8E8  ;
+    width: 100%                  ;
+    height: 100%                 ;
+    margin-top: 70px             ;
+    padding: 40px                ;
+    margin-bottom: 40px          ;
+}
+
+.films {
+    display: flex            ;
+    flex-wrap: wrap          ;
+    gap: 15px                ;
+}
+
+.film-wrapper {
+    height: 235px              ;
+    width: 475px               ;
+    padding-top: 5px           ;
+    padding-left: 5px          ;
+    background-color: purple ;
+    border-radius: 5px         ;
+}
+
+.film {
+    padding: 5px              ;
+    background-color: white ;
+    width: 470px              ;
+    height: 230px             ;
+    border-radius: 5px        ;
+    display: flex             ;
+    transition: background-color 0.8s ease; /* Define a transição */;
+}
+
+.film img {
+    height: 220px;
+    width: 150px ;
+}
+
+.film .title {
+    font-size: 1.9rem;
+}
+
+.separacao-vertical {
+    width: 1px               ;
+    height: 220px            ;
+    background-color: #E8E8E8;
+    margin: 0px 10px         ;
+}
+
+.separacao-horizontal {
+    width: 230px             ;
+    height: 1px              ;
+    background-color: #E8E8E8;
+}
+
+.film-infos {
+    display: flex          ;
+    flex-direction: column ;
+    gap: 10px              ;
+    justify-content: center;
+}
+
+.film-infos * {
+    font-family: "Verdana, Geneva, Tahoma, sans-serif" ;
+    font-weight: 500                                   ;
+    font-size: 1.6rem;
+}
+
+.title {
+    font-size: 1.9rem !important;
+    font-weight: 600;
+}
+
+.film-scores {
+    display: flex;
+    gap: 5px     ;
+}
+
+.green {
+    color: #4BB543  ;
+    font-weight: 700;
+}
+
+.red {
+   color: red;
+}
+
+.film:hover {
+    background-color:#234249;
+    color: white            ;
+}
+
+.no-films {
+    margin: 0 auto           ;
+    text-align: center       ;
+    background-color: white;
+    border-radius: 10px      ;
+    padding: 2.5rem          ;
+    width: fit-content       ;
+    height: auto             ;
+}
